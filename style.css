@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+header {display: block; font-family: Oswald, Georgia, serif; color:#ffff; background-color: #004175; border-color: #89deef;block-size: 80pt; font-size: xx-large;}
+
+.links {display: block; text-align: right; font-family: Oswald, Georgia, serif; color:#ffff;font-size: medium;}
+
+p { font-family: Oswald, Georgia, serif;}
