@@ -1,32 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
 
-h1 {display: block; 
-    font-family: 
-    Oswald, Georgia, serif; 
-    color:#ffff; 
+html * {font-family: Oswald, Georgia, serif}
+
+.container{ display: flex;
+    align-items: center;
     background-color:#004175;
     border-color: #89deef;
     block-size: 80pt; 
     font-size: xx-large;
-}
-
-.links {display: inline; 
-        text-align: right; 
-        font-family: Oswald, Georgia, serif; 
-        color:#ffff;
-        font-size: medium;
+    color: #ffff;
+    align-items:flex-end;
+  
     }
 
-p { font-family: Oswald, Georgia, serif;}
-
-footer {font-family: Oswald, Georgia, serif; 
-        color:#ffff;
+.links {color:#ffff;
         font-size: medium;
-        display: inline;
+        align-items: end;
     }
+
+p { font-family: Oswald, Georgia, serif;
+    padding: 20px;
+    border: 2px;
+    margin: 10px 0;
+
+   }
+
+.footercontainer {
+        font-size: x-large;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background: 
+            url(images/donate.jpg) left no-repeat,
+            url(images/volunteer.jpg) center no-repeat,
+            url(images/location.png) right no-repeat;
+        height: 25vh;
+        
+}    
+
+.linkcontainer {
+        display: flex;
+        color: white;
+    }    
 
 .dogcard {
     padding: 20px;
     border: 2px;
     margin: 10px 0;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
