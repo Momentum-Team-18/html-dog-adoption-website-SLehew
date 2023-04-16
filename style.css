@@ -43,17 +43,52 @@ p { font-family: Oswald, Georgia, serif;
 .linkcontainer {
         display: flex;
         color: white;
-    }    
+     }    
 
 .dogcard {
     padding: 20px;
     border: 2px;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: gray;
     margin: 10px 0;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+    flex-grow: auto;
+}
+
+.traits {
+    background-color: skyblue;
+    border-radius: 30%;
+    font-size: small;
+    color: rgb(42, 50, 55);
+    flex-wrap: wrap;
+    align-self: flex-start;
+    flex: 0 0 auto;
+}
+
+.name {
+    flex-wrap: wrap;
+    align-self: flex-start;
+    flex-direction: wrap;
+    border-radius: 5%;
+
+}
+
+.dogimage {
+    display: flex;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.adoptmain {
+    display: inline-block;
+    flex-direction: wrap;
 }
 
