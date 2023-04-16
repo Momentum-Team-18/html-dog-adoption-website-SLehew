@@ -68,7 +68,12 @@ p { font-family: Oswald, Georgia, serif;
     color: rgb(42, 50, 55);
     flex-wrap: wrap;
     align-self: flex-start;
+    align-content: space-around;
     flex: 0 0 auto;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+
 }
 
 .name {
