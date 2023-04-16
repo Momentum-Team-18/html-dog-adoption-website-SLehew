@@ -32,11 +32,13 @@ p { font-family: Oswald, Georgia, serif;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        background: 
+        background:
             url(images/donate.jpg) left no-repeat,
             url(images/volunteer.jpg) center no-repeat,
             url(images/location.png) right no-repeat;
+            
         height: 25vh;
+     
         
 }    
 
