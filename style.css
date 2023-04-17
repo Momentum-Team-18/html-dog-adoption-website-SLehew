@@ -54,11 +54,9 @@ p { font-family: Oswald, Georgia, serif;
     border-style: solid;
     border-color: gray;
     margin: 10px 0;
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex-basis: 25%;
-    flex-grow: auto;
+    flex: 25% 25% auto;
+     
+    
 }
 
 .traits {
@@ -66,26 +64,20 @@ p { font-family: Oswald, Georgia, serif;
     border-radius: 30%;
     font-size: small;
     color: rgb(42, 50, 55);
-    flex-wrap: wrap;
-    align-self: flex-start;
-    align-content: space-around;
-    flex: 0 0 auto;
-    display: inline-block;
     padding: 5px;
-    margin: 5px;
+    /* margin: 5px; */
 
 }
 
 .name {
-    flex-wrap: wrap;
-    align-self: flex-start;
-    flex-direction: wrap;
     border-radius: 5%;
 
 }
 
 .dogimage {
-    display: flex;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 5px;
 }
 
 .container {
@@ -95,7 +87,12 @@ p { font-family: Oswald, Georgia, serif;
 }
 
 .adoptmain {
-    display: inline-block;
-    flex-direction: wrap;
+    display: inline-flex;
+    flex-direction: row;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
